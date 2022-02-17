@@ -768,8 +768,7 @@ background-color: #2196F3;
     position: absolute;
     left: 5px;
     top: 70%;
-    transform: translateY(-70%);
-    
+    transform: translateY(-70%); 
     
 }
 .modal-input:focus{
@@ -795,9 +794,9 @@ background-color: #2196F3;
     display: block;
     margin-right: 7px;
 }
-.modal-chek:focus + .modal-chek-text::before
-{outline: #212121;
-background-color: none;} 
+.modal-chek:focus + .modal-chek-text::before{
+    border-color: black;    
+}
 
 .modal-chek:checked + .modal-chek-text::before{
     background-image: url(../images/icon\ check.svg);
@@ -861,8 +860,6 @@ background-color: none;}
     }
 .footer-icon-send{
  margin-left: 10px;
-}
-.modal-chek {display: none;
 }
    
 .modal-input-chek{
